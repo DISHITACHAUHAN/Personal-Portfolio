@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>PORTFOLIO</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Work</a></li>
+                </ul>   
+            </nav>
+           
+        </div>
+        <div class="header-text">
+            <p>WEB DEVELOPMENT<p>
+                <H1>Hii, I'm <span>Dishita</span><br>Chauhan</H1>
+
+        </div>
+    </div>
+    <!------------------------ABOUT---------------------------->
+    <div id="about">
+        <div class="container-about">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image4.jpg" height="400px" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"Born to CODE , forced to WORK"<br>
+                        I am Computer Science Engineering student at Galgotias University , Uttar Pradesh .<br>
+                        Technology is upgrading and I want upgrade myself by learning new skill . Certain skill that I have worked with Frontend development (HTML, CSS, JS). I might lack in skill but I have determination to learn.
+                        <br>Outside of tech , I am Basketball player , "As a basketball player, I've learned that nothing is handed to you - everything is earned through hard work and dedication".
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skill')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skill">
+                        <ul>
+                            <li><span>Web Development</span><br>Frontend development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Experience">
+                        <ul>
+                            <li><span>2024-2025</span><br>Frontend developer at Unified Mentor</li>
+                            <li><span>2024-Current</span><br>Technical Team Member at TechnoJam</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Education">
+                        <ul>
+                            <li><span>2024-2028</span><br>Btech CSE from Galgotias University </li>
+                            <li><span>2017-2024</span><br>High school from Jawahar Navodaya Vidyalaya (JNV)</li>
+                        </ul>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------SERVICES---------------------->
+    <div id="services">
+        <div class="container-services">
+            <h1>My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p> I specialize in creating modern, and user-friendly websites using a combination of HTML, CSS, and JavaScript. </p>
+                
+                </div>
+                <div> 
+                    <h2> Front-End Development</h2>
+                    <p> Write clean and efficient HTML, CSS, and JavaScript to bring designs to life.</p>
+                      
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------WORK------------------------->
+    <div id="work">
+        <div class="container-work">
+            <h1>My Work</h1>
+            <div class="work-list">
+                <div class="work">
+               
+                    <img src="project1.jpeg">
+                    <div class="layer">
+                        <h3>COUNTDOWN TIMER</h3>
+                        <p>This project is a countdown timer built using HTML, CSS, and JavaScript. It allows users to set a specific time duration and counts down to zero, displaying the remaining time in hours, minutes, and seconds. JavaScript is used to handle the countdown logic, updating the display in real-time. </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="project2.jpeg">
+                    <div class="layer">
+                        <h3>AMAZON CLONE</h3>
+                        <p>This project is an Amazon clone built using HTML, CSS. The homepage showcases product categories, search functionality, and featured products.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &#169 Dishita Chauhan</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
