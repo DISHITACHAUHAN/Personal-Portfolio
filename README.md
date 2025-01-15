@@ -1,5 +1,5 @@
 # Welcome to My Portfolio
-<H1>I am DISHITA CHAUHAN</H1>
+<H2>I am DISHITA CHAUHAN</H2>
 <BR>
-<P>This portfolio is a collection of my work, accomplishments, and experiences that showcase my passion, skills.</P>
+<P> This portfolio is a collection of my work, accomplishments, and experiences that showcase my passion, skills.</P>
 <br>
